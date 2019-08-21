@@ -1,0 +1,9 @@
+build
+dataset
+.DS_Store
+*.swp
+*.swo
+*.config
+*.creator
+*.files
+*.includes
