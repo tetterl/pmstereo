@@ -7,6 +7,10 @@ Implements the Patch Match stereo algorithm by Michael Bleyer, Christoph Rhemann
 High-performance implementation of PatchMatch Stereo matching algorithm on the Intel Haswell architecture. Demonstrating an 8.9x speedup over the C++ baseline implementation by using methods such as arithmetic transformations, precomputations, access pattern optimization, SIMD usage, etc.
 Roofline analysis and an instruction latency analysis shows that the implementation is within a factor of 2 of the optimal performance.
 
+## Report
+
+See https://github.com/tetterl/pmstereo/blob/master/report.pdf
+
 ## Attribution 
 Note that the very first baseline implementation was based on the following repository: https://github.com/ivanbergonzani/patch-match-stereo.
 
